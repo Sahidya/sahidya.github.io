@@ -1,7 +1,77 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Bio</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: #f7f9fc;
+      color: #333;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .container {
+      max-width: 600px;
+      width: 90%;
+      margin-top: 60px;
+      text-align: center;
+    }
+    .profile-pic {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 3px solid #ccc;
+      margin-bottom: 20px;
+    }
+    h1 {
+      font-size: 2em;
+      margin-bottom: 10px;
+    }
+    p {
+      font-size: 1em;
+      margin-bottom: 30px;
+      color: #555;
+    }
+    .link {
+      display: block;
+      background: #0077b5; /* LinkedIn blue */
+      color: white;
+      text-decoration: none;
+      padding: 12px 20px;
+      margin: 10px auto;
+      border-radius: 8px;
+      max-width: 300px;
+      transition: background 0.3s;
+    }
+    .link:hover {
+      background: #005983;
+    }
+    .coming-soon {
+      margin-top: 40px;
+      font-style: italic;
+      color: #888;
+    }
+  </style>
+</head>
 <body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
+  <div class="container">
+    <!-- Optional: Add a profile picture -->
+    <!-- <img src="your-photo.jpg" alt="Your Photo" class="profile-pic"> -->
+
+    <h1>Hello, I'm [Your Name]</h1>
+    <p>Welcome to my page — here's where you can find me online.</p>
+
+    <a class="link" href="https://www.linkedin.com/in/sahidya" target="_blank">Connect on LinkedIn</a>
+
+   <!-- <div class="coming-soon">
+      🎨 My paintings will be here soon!
+    </div>-->
+  </div>
 </body>
 </html>
